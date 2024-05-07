@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #9c2ba7;
+  width: 100%;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+
+    li {
+      margin-right: 1rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .logo img {
+    animation: spin 5s linear infinite;
+  }
+}
